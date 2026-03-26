@@ -6,11 +6,13 @@ import Carrosel from './components/Carrosel'
 import Videos from './components/Videos'
 import Contato from './components/Contato'
 import Footer from './components/Footer'
+import Banner from './components/Banner'
 
 const App = () => {
   return (
     <div>
       <Header />
+      <Banner />
       <Apresentação />
       <NavBar />
       <Carrosel />
