@@ -7,7 +7,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-const Carrosel = () => {
+const Carrossel = () => {
   // Array com suas imagens
   const fotos = [
     "/imagem1.jpeg", "/imagem2.jpeg", "/imagem3.jpeg", "/imagem4.jpeg",
@@ -18,7 +18,7 @@ const Carrosel = () => {
     <section id="produtos" className="bg-white py-24 px-6 overflow-hidden">
       <div className="max-w-7xl mx-auto">
 
-        {/* Título da Seção */}
+        {/* Título da seção */}
         <div className="text-center mb-16">
           <div className="w-16 h-1 bg-[#5d4037] mx-auto mb-6"></div>
           <h2 className="text-5xl md:text-7xl font-serif text-black leading-tight">
@@ -46,7 +46,7 @@ const Carrosel = () => {
             <SwiperSlide key={index}>
               <div className="group bg-stone-50 rounded-[2.5rem] overflow-hidden border border-stone-100 transition-all duration-500 hover:shadow-2xl">
 
-                {/* Imagem do Produto */}
+                {/* Imagem do produto */}
                 <div className="aspect-[4/5] overflow-hidden">
                   <img
                     src={img}
@@ -55,14 +55,14 @@ const Carrosel = () => {
                   />
                 </div>
 
-                {/* Texto Padrão para todos os cards */}
+                {/* Texto padrão para todos os cards */}
                 <div className="p-8 text-center bg-white">
                   <h3 className="text-xl md:text-2xl font-serif leading-tight">
                     <span className="text-black">Padrão e </span>
                     <span className="text-emerald-700 italic">Qualidade Chaudar</span>
                   </h3>
 
-                  {/* Detalhe Marrom centralizado */}
+                  {/* Detalhe marrom centralizado */}
                   <div className="w-8 h-1 bg-[#5d4037] mx-auto mt-4 transition-all duration-500 group-hover:w-16"></div>
                 </div>
               </div>
@@ -103,4 +103,4 @@ const Carrosel = () => {
   );
 };
 
-export default Carrosel;
+export default Carrossel;

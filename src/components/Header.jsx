@@ -3,10 +3,10 @@ import React, { useState } from 'react';
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  // Mapeamento dos nomes para os IDs (sem acento e com hífen)
+  // Mapeamento dos nomes para os IDs (sem acentos e com hífen)
   const menuItems = [
     { nome: 'Início', id: 'inicio' },
-    { nome: 'Quem Somos', id: 'quem-somos' },
+    { nome: 'Quem somos', id: 'quem-somos' },
     { nome: 'Produtos', id: 'produtos' },
     { nome: 'Contato', id: 'contato' },
   ];
@@ -21,7 +21,7 @@ const Header = () => {
         </h1>
 
         <div className='flex items-center'>
-          {/* Menu de Navegação */}
+          {/* Menu de navegação */}
           <ul className={`
             fixed md:static top-20 left-0 w-full md:w-auto bg-white md:bg-transparent
             flex flex-col md:flex-row items-center gap-8 p-10 md:p-0
@@ -37,13 +37,13 @@ const Header = () => {
                 >
                   {item.nome}
                 </a>
-                {/* Linha animada no Hover */}
+                {/* Linha animada no hover */}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-emerald-700 transition-all duration-300 group-hover:w-full"></span>
               </li>
             ))}
           </ul>
 
-          {/* Botão Hamburger */}
+          {/* Botão hambúrguer */}
           <div
             onClick={() => setIsOpen(!isOpen)}
             className='grid h-10 w-10 cursor-pointer justify-items-center items-center md:hidden ml-4 group'

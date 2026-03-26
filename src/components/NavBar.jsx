@@ -3,9 +3,9 @@ import React from 'react'
 const NavBar = () => {
   const cards = [
     {
-      titulo: "Frete Rápido",
-      descricao: "Logística ágil e eficiente com os melhores preços para sua região.",
-      // Ícone de Caminhão (Frete)
+      titulo: "Frete rápido",
+      descricao: "Logística ágil e eficiente, com os melhores preços para a sua região.",
+      // Ícone de caminhão (frete)
       icone: (
         <svg className="w-8 h-8 text-[#5d4037]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z" />
@@ -15,8 +15,8 @@ const NavBar = () => {
     },
     {
       titulo: "Atendimento",
-      descricao: "Suporte especializado para entender a necessidade do seu projeto.",
-      // Ícone de Usuário/Suporte
+      descricao: "Suporte especializado para entender as necessidades do seu projeto.",
+      // Ícone de usuário/suporte
       icone: (
         <svg className="w-8 h-8 text-[#5d4037]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
@@ -26,7 +26,7 @@ const NavBar = () => {
     {
       titulo: "Procedência",
       descricao: "Madeira de reflorestamento com garantia de origem sustentável.",
-      // Ícone de Árvore/Folha
+      // Ícone de árvore/folha
       icone: (
         <svg className="w-8 h-8 text-[#5d4037]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
@@ -35,8 +35,8 @@ const NavBar = () => {
     },
     {
       titulo: "Qualidade",
-      descricao: "Cortes precisos em Pinus e Eucalipto com rigor industrial.",
-      // Ícone de Selo/Qualidade
+      descricao: "Cortes precisos em pinus e eucalipto, com rigor industrial.",
+      // Ícone de selo/qualidade
       icone: (
         <svg className="w-8 h-8 text-[#5d4037]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
@@ -60,17 +60,17 @@ const NavBar = () => {
               {card.icone}
             </div>
 
-            {/* Título: Mesma fonte Serifada da Apresentação */}
+            {/* Título: mesma fonte serifada da apresentação */}
             <h3 className="text-2xl font-serif text-black mb-4">
               {card.titulo}
             </h3>
 
-            {/* Descrição: Simples e organizada */}
+            {/* Descrição: simples e organizada */}
             <p className="text-stone-500 text-sm leading-relaxed font-medium">
               {card.descricao}
             </p>
 
-            {/* Detalhe Marrom no final do card */}
+            {/* Detalhe marrom no final do card */}
             <div className="mt-8 w-8 h-1 bg-[#5d4037] opacity-20 group-hover:opacity-100 group-hover:w-16 transition-all duration-500"></div>
           </div>
         ))}
@@ -80,4 +80,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
+export default NavBar;

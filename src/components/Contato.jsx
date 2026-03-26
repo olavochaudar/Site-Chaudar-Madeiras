@@ -5,24 +5,24 @@ const Contato = () => {
     <section id="contato" className="bg-white py-24 px-6 md:py-32">
       <div className="max-w-4xl mx-auto text-center">
 
-        {/* Detalhe Superior Marrom */}
+        {/* Detalhe superior marrom */}
         <div className="w-12 h-1 bg-[#5d4037] mx-auto mb-8 md:mb-12"></div>
 
-        {/* Título Centralizado - Preto e Verde (Fonte Serifada) */}
+        {/* Título centralizado - preto e verde (fonte serifada) */}
         <h2 className="text-5xl md:text-8xl font-serif text-black leading-tight mb-8">
           Entre em <br />
           <span className="text-emerald-700 italic">Contato</span>
         </h2>
 
-        {/* Texto de Chamada - Simples e Direto */}
+        {/* Texto de chamada - simples e direto */}
         <div className="max-w-2xl mx-auto mb-16">
           <p className="text-stone-500 text-lg md:text-2xl leading-relaxed font-light">
             Solicite seu orçamento.
-            Nossa equipe está pronta para te atender com agilidade e transparência.
+            Nossa equipe está pronta para atendê-lo com agilidade e transparência.
           </p>
         </div>
 
-        {/* Área do Botão de WhatsApp - Arredondado e Imponente */}
+        {/* Área do botão de WhatsApp - arredondado e imponente */}
         <div className="flex flex-col items-center gap-6">
           <a
             href="https://wa.me/5515996125662"
@@ -30,7 +30,7 @@ const Contato = () => {
             rel="noopener noreferrer"
             className="group relative flex items-center justify-center gap-4 bg-emerald-700 text-white px-10 md:px-16 py-6 md:py-8 rounded-full shadow-[0_20px_50px_rgba(4,120,87,0.3)] hover:shadow-emerald-900/40 hover:-translate-y-2 transition-all duration-500 active:scale-95 w-full md:w-auto"
           >
-            {/* Ícone do WhatsApp Sutil */}
+            {/* Ícone do WhatsApp sutil */}
             <svg
               className="w-6 h-6 md:w-8 md:h-8 fill-current"
               viewBox="0 0 24 24"
@@ -52,10 +52,10 @@ const Contato = () => {
           </p>
         </div>
 
-        {/* Detalhe Marrom Final - Organizador */}
+        {/* Detalhe marrom final - organizador */}
         <div className="mt-24 pt-12 border-t border-stone-100">
           <p className="text-stone-300 font-serif italic text-xl">
-            Chaudar Madeiras — <span className="text-emerald-700">Tradição</span> e Qualidade.
+            Chaudar Madeiras — <span className="text-emerald-700">Tradição</span> e qualidade.
           </p>
         </div>
       </div>
@@ -63,4 +63,4 @@ const Contato = () => {
   )
 }
 
-export default Contato
+export default Contato;
