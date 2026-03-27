@@ -21,7 +21,7 @@ const Apresentacao = () => {
           </p>
           <p className="hidden sm:block">
             Na <span className="text-emerald-800 font-bold uppercase text-sm tracking-widest">Chaudar Madeiras</span>, conquistamos a fidelidade de clientes e fornecedores, garantindo excelência e preços competitivos.
-            Trabalhamos com tabuado de pinus e eucalipto, madeira para construção civil, embalagens e indústrias moveleiras, além de madeira bruta e beneficiada e madeira pré-cortada.
+            Trabalhamos com tabuado de pinus e eucalipto beneficiada, madeira para construção civil, embalagens e indústrias moveleiras, além de madeira bruta e beneficiada e madeira pré-cortada.
           </p>
           <p>
             Prezamos pela transparência e compromisso em cada negociação, assegurando processos realizados com seriedade. Nosso objetivo é oferecer as melhores soluções em pinus e eucalipto.

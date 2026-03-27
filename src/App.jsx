@@ -7,6 +7,7 @@ import Videos from './components/Videos'
 import Contato from './components/Contato'
 import Footer from './components/Footer'
 import Banner from './components/Banner'
+import MadeiraEucaliptoAparelhada from './components/MadeiraEucaliptoAparelhada'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Apresentação />
       <NavBar />
       <Carrosel />
+      <MadeiraEucaliptoAparelhada />
       <Videos />
       <Contato />
       <Footer />
